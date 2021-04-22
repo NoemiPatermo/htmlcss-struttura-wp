@@ -7,20 +7,27 @@
 .container{
   width: 900px;
   margin: 0 auto;
-  background-color: greenyellow;
+  
       
 }
 
 header{
     height: 70px;
     width: 70;
-    background-color: orange;
+    background-color: palevioletred;
     margin-bottom: 20px;
+}
+.eser{
+    background-color: blue;
+    
+    
 }
 .text{
     height: 200px;
     width: 100%;
-    background-color:blue;
+    background-color: yellowgreen;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 
@@ -33,35 +40,38 @@ header{
 }
 
 .fl{
-    background-color: violet;
+    background-color: lightblue;
     float: left;
     height: 200px;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-right: 15px;
     width: calc(50% - 15px);
+    margin-bottom: 10px;
 
 }
 
 
 .pink{
-    background-color: black;
+    background-color:lightblue;
     float: left;
     height: 200px;
     width: calc(20% - 30px);
-    margin-top: 20px;
+    margin-top: 30px;
     margin-right: 15px;
     margin-left: 15px;
+    margin-bottom: 10px;
 }
 .fr{
-    background-color: green;
+    background-color:lightblue;
     float: right;
     height: 200px;
     width: calc(30% - 15px);
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 footer{
-    background-color: tomato;
+    background-color:darkviolet;
     height: 50px;
     width: 100%;
     margin-top: 20px;
