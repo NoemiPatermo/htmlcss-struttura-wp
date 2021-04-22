@@ -5,26 +5,27 @@
 }
 
 .container{
-    height: 1200px;
-    
+  width: 900px;
+  margin: 0 auto;
+      
 }
 
-
-.clearfix::after{
-    content: "";
-    display: table;
-    clear: both;
-}
 header{
-    height: 100px;
-    width: 100;
+    height: 70px;
+    width: 70;
     background-color: orange;
-
+    margin-bottom: 20px;
 }
 .text{
-    height: 200px;
-    width: 200px;
-    background-color: royalblue;
+    height: 300px;
+    width: 100%;
+    background-color:blue;
+}
+
+.clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
 }
 
 
