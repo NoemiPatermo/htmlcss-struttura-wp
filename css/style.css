@@ -34,18 +34,23 @@ header{
     float: left;
     height: 300px;
     margin-top: 20px;
+    width: 20%;
 
+}
+
+
+.mid-float{
+    background-color: black;
+    float: left;
+    height: 300px;
+    width: 60%;
+    margin-top: 20px;
 }
 .fr{
-    background-color: violet;
+    background-color: green;
     float: right;
     height: 300px;
-    margin-top: 20px;
-
-}
-.mid-float{
-    background-color: violet;
-    height: 300px;
+    width: 20%;
     margin-top: 20px;
 }
 
