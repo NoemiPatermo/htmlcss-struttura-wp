@@ -17,17 +17,44 @@ header{
     margin-bottom: 20px;
 }
 .text{
-    height: 300px;
+    height: 200px;
     width: 100%;
     background-color:blue;
 }
-
 .clearfix::after{
-    content:"";
+    content: "";
     display: table;
     clear: both;
+
 }
 
+
+.fl{
+    background-color: violet;
+    float: left;
+    height: 300px;
+    margin-top: 20px;
+
+}
+.fr{
+    background-color: violet;
+    float: right;
+    height: 300px;
+    margin-top: 20px;
+
+}
+.mid-float{
+    background-color: violet;
+    height: 300px;
+    margin-top: 20px;
+}
+
+footer{
+    background-color: tomato;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+}
 
 
 
